@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    color: #ffffff;
+	font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue", sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+    
+}
+
+.wrapper {
+    background: url('../images/bg-image.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+}
+
+.countdown-timer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+
+}
+
+.heading-text h1 {
+    font-size: 60px;
+    margin-bottom: 50px;
+
+}
+
+.flip-clock-divider span {
+    color: #fff !important;
+    font-size: 16px;
+
+}
+
+span.flip-clock-dot {
+    background: #ffffff !important;
+}
+
+@media (max-width: 767px) {
+    .heading-text h1 {
+        font-size: 30px;
+        margin-bottom: 50px;
+    
+    }
+
+    .countdown-timer {
+        overflow: hidden;
+    }
+}
